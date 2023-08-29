@@ -1,7 +1,13 @@
 export default function page() {
   return (
     <main>
-      <h1 className="head-text">Sign up</h1>
+      {/*  Add Logo App */}
+
+      {/* Add Title */}
+
+      {/* Add description */}
+
+      {/* Call the signUp form (Don't forget to import that on the top) */}
     </main>
   );
 }

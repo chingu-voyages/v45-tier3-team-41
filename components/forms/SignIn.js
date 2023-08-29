@@ -22,8 +22,10 @@ export default function SignIn() {
 
   return (
     <div>
+      {/* Calling the shadcn form */}
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+          {/* Start username Field */}
           <FormField
             control={form.control}
             name="username"
@@ -40,7 +42,9 @@ export default function SignIn() {
               </FormItem>
             )}
           />
+          {/* End username Field */}
 
+          {/* Start Password Field */}
           <FormField
             control={form.control}
             name="password"
@@ -58,11 +62,14 @@ export default function SignIn() {
               </FormItem>
             )}
           />
+          {/* End Password Field */}
 
+          {/* Submitting Button For the Form */}
           <Button className="bg-primary-500 w-full py-6" type="submit">
             Sign in
           </Button>
 
+          {/* Text that ask you if you to sign up */}
           <p className="text-light-1 text-center">
             Don't you have an account?{" "}
             <Link className="text-primary-500 font-medium" href="/sign-up">
