@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Bottombar() {
   return (
-    <nav className="bottombar">
+    <nav className="bottombar bg-dark-2">
       <Link href="/faq" className="flex items-center gap-4">
         <p className=" text-light-1">FAQ</p>
       </Link>
