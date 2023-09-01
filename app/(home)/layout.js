@@ -16,9 +16,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className}`}>
         <div className="flex justify-between flex-row items-center px-[15px] md:px-[30px] xl:px-[50px] 2xl:px-[100px] mx-auto py-[10px] z-50 w-full absolute top-0 left-0 right-0">
-          <div class="flex items-center">
+          <div className="flex items-center">
             <div>
-              {/* <a href="/home" class="">
+              {/* <a href="/home" className="">
                 <img
                   src="https://streamo.vuejstemplate.com/images/logo/logo.png"
                   alt="Logo"
@@ -37,8 +37,8 @@ export default function RootLayout({ children }) {
               </Link>
             </div>
           </div>
-          <div class="flex items-center">
-            <div class="ml-[10px] sm:ml-[15px]" data-v-16cc89a6="">
+          <div className="flex items-center">
+            <div className="ml-[10px] sm:ml-[15px]" data-v-16cc89a6="">
               <Link href="/sign-in">
                 <Button className="bg-primary-500 py-5 px-[35px]">
                   <FaUserAlt className="mr-2 w-3 h-3" />

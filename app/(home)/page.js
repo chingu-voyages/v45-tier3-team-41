@@ -9,10 +9,10 @@ export default function page() {
       <h1 className="text-light-1 text-heading1-bold">
         Discover Your Next Favorite Movie with a Friend
       </h1>
-      <h4 class="sub-title text-white text-[20px] md:text-[24px] leading-[1.13] mt-[27px] mb-[28px] font-normal">
+      <h4 className="sub-title text-white text-[20px] md:text-[24px] leading-[1.13] mt-[27px] mb-[28px] font-normal">
         Enjoy anywhere. savor entertainment together
       </h4>
-      <p class="text-white font-[17px] mb-[20px]">
+      <p className="text-white font-[17px] mb-[20px]">
         Ready to Match? Create Your Account or Sign In to Get Started.
       </p>
       <Link href="/sign-up">
