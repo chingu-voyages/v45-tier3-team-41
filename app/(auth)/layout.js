@@ -1,5 +1,7 @@
+import Topbar from "@/components/shared/Topbar";
 import "../globals.css";
 import { Inter } from "next/font/google";
+import Bottombar from "@/components/shared/Bottombar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {

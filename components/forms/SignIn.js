@@ -71,7 +71,7 @@ export default function SignIn() {
 
           {/* Text that ask you if you to sign up */}
           <p className="text-light-1 text-center">
-            Don't you have an account?{" "}
+            Don&apos;t you have an account?{" "}
             <Link className="text-primary-500 font-medium" href="/sign-up">
               Sign up
             </Link>

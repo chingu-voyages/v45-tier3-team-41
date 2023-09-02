@@ -9,11 +9,11 @@
   }
 
   .topbar {
-    @apply flex w-full items-center justify-between px-10 py-6;
+    @apply flex w-full items-center justify-between px-[15px] md:px-[30px] xl:px-[50px] 2xl:px-[100px] mx-auto py-[12px] bg-dark-2 z-50 fixed top-0 left-0 right-0;
   }
 
   .bottombar {
-    @apply flex w-full items-center justify-between px-10 py-6;
+    @apply flex w-full items-center justify-between px-[15px] md:px-[30px] xl:px-[50px] 2xl:px-[100px] mx-auto py-6;
   }
 
   /* Head Text */

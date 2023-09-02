@@ -14,9 +14,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-dark-1 relative`}>
+      <body className={`${inter.className} bg-dark-1`}>
         <Topbar />
-        <Suspense fallback={<Loading />}>{children}</Suspense>
+        <div className="min-h-screen">
+          <Suspense fallback={<Loading />}>{children}</Suspense>
+        </div>
         <Bottombar />
       </body>
     </html>
