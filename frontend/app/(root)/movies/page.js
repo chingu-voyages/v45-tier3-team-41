@@ -1,6 +1,6 @@
 import React from "react";
 
-import CardMovie from "@/components/ui/cardMovie";
+import CardMovie from "@/components/cards/cardMovie";
 
 export default function page() {
   return (
