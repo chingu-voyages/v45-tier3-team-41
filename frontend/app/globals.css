@@ -40,3 +40,12 @@
     @apply border-none bg-dark-3 text-light-1 py-6 !important;
   }
 }
+
+
+/* Swiper */
+
+.swiper-pagination-position {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}

@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardFooter } from "@/components/ui/card";
+import { Card, CardHeader } from "@/components/ui/card";
 import {
   Popover,
   PopoverContent,
@@ -9,7 +9,7 @@ import Image from "next/image";
 
 import { Button } from "@/components/ui/button";
 
-export default function CardMovie() {
+export default function CardMovieRemove() {
   return (
     <div className="">
       <Card className="mx-auto rounded-lg border bg-transparent border-slate-200 text-slate-950 shadow-sm dark:border-slate-800 dark:bg-slate-950 dark:text-slate-50 max-w-[20rem] overflow-hidden">
@@ -33,11 +33,11 @@ export default function CardMovie() {
         </Popover>
 
         <div className="p-2">
-          <Button className="w-full bg-primary-500">+ My List</Button>
+          <Button className="w-full bg-primary-500"> - Remove </Button>
         </div>
       </Card>
     </div>
   );
 }
 
-export { CardMovie }
+export { CardMovieRemove }
