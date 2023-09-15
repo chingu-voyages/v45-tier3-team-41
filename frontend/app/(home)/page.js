@@ -2,8 +2,10 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import React from "react";
 import { FaAngleRight, FaUserAlt } from "react-icons/fa";
+import { currentUser } from "@clerk/nextjs";
 
-export default function page() {
+export default async function page() {
+  const user = await currentUser();
   return (
     <div className="text-center relative max-w-2xl mx-auto">
       <h1 className="text-light-1 text-heading1-bold">
@@ -15,12 +17,21 @@ export default function page() {
       <p className="text-white font-[17px] mb-[20px]">
         Ready to Match? Create Your Account or Sign In to Get Started.
       </p>
-      <Link href="/sign-up">
-        <Button className="bg-primary-500 py-6 px-[35px] rounded-full transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-100 duration-200">
-          <span> Get started</span>
-          <FaAngleRight className="ml-2" />
-        </Button>
-      </Link>
+      {user ? (
+        <Link href="/movies">
+          <Button className="bg-primary-500 py-6 px-[35px] rounded-full transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-100 duration-200">
+            <span> Explore movies</span>
+            <FaAngleRight className="ml-2" />
+          </Button>
+        </Link>
+      ) : (
+        <Link href="/sign-up">
+          <Button className="bg-primary-500 py-6 px-[35px] rounded-full transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-100 duration-200">
+            <span> Get started</span>
+            <FaAngleRight className="ml-2" />
+          </Button>
+        </Link>
+      )}
     </div>
   );
 }
