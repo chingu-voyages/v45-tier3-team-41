@@ -1,14 +1,17 @@
-"use client";
+// "use client";
 
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
 import { Button } from "../ui/button";
 import { FaUserAlt } from "react-icons/fa";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { UserButton } from "@clerk/nextjs";
+import { dark } from "@clerk/themes";
+import { currentUser } from "@clerk/nextjs";
 
-export default function Topbar() {
-  const [isConnected, setIsconnected] = useState(true);
+export default async function Topbar() {
+  const user = await currentUser();
 
   return (
     <nav className="topbar">
@@ -20,18 +23,13 @@ export default function Topbar() {
       </Link>
       <div className="flex items-center gap-3">
         <>
-          {isConnected ? (
-            <div>
-              <Button className="bg-transparent text-white hover:bg-white/5 hover:text-white py-5  flex gap-3">
-                <Avatar className="w-8 h-8">
-                  <AvatarImage />
-                  <AvatarFallback className="bg-primary-500/20 text-primary-500 text-[14px] font-bold">
-                    J
-                  </AvatarFallback>
-                </Avatar>{" "}
-                <span>josue mbuyu</span>
-              </Button>
-            </div>
+          {user ? (
+            <UserButton
+            appearance={{
+              baseTheme: dark,
+            }}
+              afterSignOutUrl="/"
+            />
           ) : (
             <>
               <Link href="/sign-in">
