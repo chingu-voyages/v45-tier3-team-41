@@ -5,15 +5,10 @@
 [💻Live Site]()
 
 
-# **Concept**
-<br>
-<br>
-
 # **Index**
 
-- [**Concept**](#concept)
 - [**Index**](#index)
-- [**SEO**   !!!!!](#seo---)
+- [**Concept**](#concept)
 - [**UX**](#ux)
 - [**User Stories**](#user-stories)
   - [**Users**](#users)
@@ -25,7 +20,6 @@
   - [**User Registered 👇**](#user-registered-)
 - [**Database Squema - Elephant SQL**](#database-squema---elephant-sql)
 - [**Agile Methodology**](#agile-methodology)
-- [**Bugs**](#bugs)
 - [**Design**](#design)
 - [**Technologies Used**](#technologies-used)
   - [Languages](#languages)
@@ -36,31 +30,19 @@
 - [**Validation**](#validation)
 - [**Testing**](#testing)
 - [**Deployment**](#deployment)
-- [**Credits**](#credits)
-  - [**Content**](#content)
 
 
 
-# **SEO**   !!!!!
+# **Concept**
 <br>
-Several SEO techniques were undertaken in order to ensure the site ranks highly in search engine results. Also the files robots.txt and sitemap.xml had been included. The sitemap.xml file had been created using 
+The project had been planned to be a tool that reduce the time of the users to find a movie to watch when with a friend that is user as well. Each user would have a list of saved movies and when seeing the friend's page, they would see display the ones in common. 
 
-[xml-sitemap](https://www.xml-sitemaps.com/)
-
-**Keywords:**
-<br>
-Starting with a brain storm of keywords that are relevant to the e-commerce itself. And reduced by making use of a word search so as to target the more relevant, the site I had used is 
-
-[wordtracker](https://www.wordtracker.com/)
-
-
-**Content marketing:**
-<br>
-The information and description of the wares in the site and other sections had been kept the more relevant to the site purpose. Also the keywords had been taken into account when creating things like categories and such, so insure they are present without getting to be considere as spam. 
-Each page has its own title, and finally meta tag description had been included in the base so that every page contains them.
+NOTE: 
+This readme contains the user stories and flowchart of the initial plan, at this stage most of the main features had been left for future implementation. This is down to communication issues by the backend team, as they being the 50% of the team, couldn't continue with the project but we, frontend team, were informed with short notice to the due line, so we tried to adapt for to deliver it, but was too short time for be able to research and implement the MVP. So at this point the project is mainly frontend with Clerk implemented for authentication, there was research for implement the API for movies but at the moment of this note it's still not working 100%.
 
 
 # **UX**
+<br>
 In order to follow the tendency we had research in different streaming sites and services, and from this we had decide to follow the dark theme that is commonly used on them.
 
 
@@ -140,10 +122,6 @@ For keep track of the Agile method I had used Project Board on GitHub.
 
 [Project Board](https://github.com/chingu-voyages/v45-tier3-team-41/projects?query=is%3Aopen).
 
-# **Bugs**
-<br>
-
-The details to the bugs can be found [here]()
 
 # **Design**
 <br>
@@ -160,25 +138,26 @@ The wireframes can be found [here](readme_files/docs/wireframes.md)
 
 - [CSS](https://www.w3.org/Style/CSS/)
 
-- [React]() etc
+- [React](https://react.dev/)
 
 
 
 ## Frameworks and Libraries
 
 - [Tailwind](https://tailwindcss.com/)
-
-
+  
+- [Next.js](https://nextjs.org/)
+  
+- [Shadcn](https://ui.shadcn.com/)
+  
 
 ## Database Host
 
 - [MONGO]()  
 
 
-
 ## Deployment Host
 
-- []()
 
 ## Other Resources
 
@@ -189,13 +168,6 @@ The wireframes can be found [here](readme_files/docs/wireframes.md)
 The validation reports can be found ETC
 
 # **Testing**
-The testing results can be found [here]()
+
 
 # **Deployment**
-ETC   
-The site had been deployed through Heroku. The site had been developed on GitPod, committed and pushed to GitHub. And Heroku once the site is deployed would update automatically. The step for this can be found [here]()
-
-# **Credits**
-
-## **Content**
-<br>
