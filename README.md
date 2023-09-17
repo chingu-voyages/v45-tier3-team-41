@@ -1,4 +1,5 @@
-![LOGO]()
+![LOGO](/frontend/public/assets/logo.svg)  
+# MOVIE MATCHER
 
 <br>
 
@@ -7,6 +8,7 @@
 
 # **Index**
 
+- [MOVIE MATCHER](#movie-matcher)
 - [**Index**](#index)
 - [**Concept**](#concept)
 - [**UX**](#ux)
@@ -16,8 +18,8 @@
 - [**Features**](#features)
   - [**Features to Implement in Future**](#features-to-implement-in-future)
 - [**Flowcharts**](#flowcharts)
-  - [**User Unregister 👇**](#user-unregister-)
-  - [**User Registered 👇**](#user-registered-)
+  - [**User Unregister**](#user-unregister)
+  - [**User Registered**](#user-registered)
 - [**Database Squema - Elephant SQL**](#database-squema---elephant-sql)
 - [**Agile Methodology**](#agile-methodology)
 - [**Design**](#design)
@@ -29,7 +31,8 @@
   - [Other Resources](#other-resources)
 - [**Validation**](#validation)
 - [**Testing**](#testing)
-- [**Deployment**](#deployment)
+- [**Team**](#team)
+  
 
 
 
@@ -96,12 +99,12 @@ Some of them are:
 <br>
 Had been divided in two as for type of users.
 
-## **User Unregister 👇**
+## **User Unregister**
 <br>
 
 ![](readme/../readme_files/images/unregistered-movies.png)
 
-## **User Registered 👇**
+## **User Registered**
 <br>
 
 ![](readme_files/images/registered-movies.png)
@@ -170,4 +173,19 @@ The validation reports can be found ETC
 # **Testing**
 
 
-# **Deployment**
+# **Team**
+
+The team sub-divided in two teams and a guide:
+
+Frontend:
+- Josué Mbuyu    [GitHub](https://github.com/josuembuyu) 
+- Ivette Mc Dermott  [GitHub](https://github.com/IvetteMcDermott) 
+
+
+Backend:
+- Natasha Buckham    [GitHub](https://github.com/natashabuckham)
+- Bushra Fatima      [GitHub](https://github.com/aspiringsoftwareprogrammer)
+
+
+Guide:
+- Kumbirai    [GitHub](https://github.com/asideofcode-dev)
