@@ -4,6 +4,7 @@ import Image from "next/image";
 export default function page() {
   return (
     <main className="max-w-lg mx-auto">
+      <div className="h-20"></div>
       <div className="bg-dark-2 rounded-xl shadow-lg px-10 py-14 space-y-7 border border-dark-3">
         {/* Logo App */}
         <Image
@@ -20,7 +21,7 @@ export default function page() {
         {/* Description */}
         <p className="text-base-regular text-light-2 text-center">
           Please let us know how can we help you
-        </p>
+        </p> 
 
         {/* Calling the Contact Us Form */}
         <div className="mt-10">
