@@ -33,14 +33,14 @@ export default async function RootLayout({ children }) {
                 />
               </a> */}
                 <Link href="/" className="flex items-center gap-4">
-                  {/* <Image
-                  src="/assets/logo.svg"
-                  alt="logo"
-                  width={28}
-                  height={28}
-                /> */}
-                  <p className=" text-light-1 max-xs:hidden text-heading3-bold font-semibold uppercase">
-                    Logo
+                  <Image
+                    src="/assets/logo.svg"
+                    alt="logo"
+                    width={28}
+                    height={28}
+                  />
+                  <p className="text-heading3-bold text-light-1 max-xs:hidden uppercase text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500     ">
+                    Movie Matcher
                   </p>
                 </Link>
               </div>
