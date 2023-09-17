@@ -37,28 +37,26 @@ export default function page() {
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
               <AccordionTrigger className="sub-title text-white text-[20px] md:text-[24px] leading-[1.13] mt-[27px] mb-[28px] ">
-                Is it accessible?
+                How can I join?
               </AccordionTrigger>
               <AccordionContent className="text-white font-normal">
-                Yes. It adheres to the WAI-ARIA design pattern.
+                Just fill the sign up form and submit, confirm you mail, and you good to go! It's a free!
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
               <AccordionTrigger className="sub-title text-white text-[20px] md:text-[24px] leading-[1.13] mt-[27px] mb-[28px] ">
-                Is it styled?
+                How do I use it?
               </AccordionTrigger>
               <AccordionContent className="text-white font-normal">
-                Yes. It comes with default styles that matches the other
-                components aesthetic.
+                Once you have an account, in your free time while in traffic or in the bus, just sign in, browse through the movies and save the ones of your interest to your list!
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
               <AccordionTrigger className="sub-title text-white text-[20px] md:text-[24px] leading-[1.13] mt-[27px] mb-[28px] ">
-                Is it animated?
+                Why should I use this?
               </AccordionTrigger>
               <AccordionContent className="text-white font-normal">
-                Yes. Its animated by default, but you can disable it if you
-                prefer.
+                Well, do you know how normally will take you lots of time to decide what to watch when with friends? ok, then with this your and yours friend can have their list preselect and saved, so when search for your friend you can see the list of movies in common, and this will reduce the so annoying waste of time browsing trying to pick what to watch!
               </AccordionContent>
             </AccordionItem>
           </Accordion>
