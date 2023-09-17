@@ -175,7 +175,7 @@ The validation reports can be found ETC
 
 # **Team**
 
-The team sub-divided in two teams and a guide:
+The team sub-divided in two teams, and guides:
 
 Frontend:
 - Josué Mbuyu    [GitHub](https://github.com/josuembuyu) 
@@ -189,3 +189,4 @@ Backend:
 
 Guide:
 - Kumbirai    [GitHub](https://github.com/asideofcode-dev)
+- Anitha    [GitHub](https://github.com/AnithaDharaneedharan)
