@@ -1,0 +1,25 @@
+.cl-card {
+  background-color: #192734 !important;
+  border: 2px solid  slategray !important;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)!important;
+}
+
+.cl-headerTitle, .cl-headerSubtitle, .cl-main, .cl-formFieldLabel, .cl-footerActionText {
+  color: #EFEFEF!important;
+
+}
+.cl-formFieldInput {
+  border: 1px solid rgb(226 232 240)!important;
+  color: rgb(100 116 139)!important;
+}
+
+.cl-formButtonPrimary, .cl-socialButtonsBlockButton {
+  background-color: rgba(127, 17, 224, 0.315) !important;
+  color: rgb(248 250 252) !important;
+}
+
+.cl-formButtonPrimary:hover, .cl-socialButtonsBlockButton:hover {
+background-color: white!important;
+color: rgb(8, 8, 8) !important;
+
+}
